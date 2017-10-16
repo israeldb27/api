@@ -1,0 +1,38 @@
+{
+  "name": "Custodia",
+  "plural": "Custodias",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "dataAbertura": {
+      "type": "date",
+      "required": true
+    },
+    "dataFechamento": {
+      "type": "date"
+    },
+    "valorTotal": {
+      "type": "number",
+      "required": true
+    },
+    "quantidadeTotal": {
+      "type": "number",
+      "required": true
+    },
+    "dataUltimaAtualizacao": {
+      "type": "date",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

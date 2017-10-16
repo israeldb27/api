@@ -1,0 +1,12 @@
+{
+  "bitcoinds": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "bitcoin",
+    "password": "admin",
+    "name": "bitcoinds",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

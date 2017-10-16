@@ -1,0 +1,47 @@
+{
+  "name": "Empresa",
+  "plural": "Empresas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "razaoSocial": {
+      "type": "string",
+      "required": true
+    },
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "dataCadastro": {
+      "type": "date",
+      "required": true
+    },
+    "dataUltimaAtualizacao": {
+      "type": "date",
+      "required": true
+    },
+    "cnpj": {
+      "type": "string",
+      "required": true
+    },
+    "status": {
+      "type": "string",
+      "required": true
+    },
+    "quantidadeAcoes": {
+      "type": "number",
+      "required": true
+    },
+    "valorInicial": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
